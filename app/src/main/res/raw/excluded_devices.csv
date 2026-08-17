@@ -310,9 +310,10 @@ LGE LG WING,lge winglm,LGE,winglm,false
 LGE VELVET,lge caymanlm,LGE,caymanlm,false
 LGE VELVET,lge caymanlm,LGE,mcaymanlm,false
 Logicom Elio,Logicom Elio,Logicom,Elio,false
+LT_Mobile LT_8103,LT LT_8103,LT_Mobile,LT_8103,false
 LT_Mobile LT_8106,LT LT_8106,LT_Mobile,LT_8106,false
 LT_Mobile LT_8501,LT LT_8501,LT_Mobile,LT_8501,false
-LT_Mobile LT_K80,LT_mobile LT_mobile_K80,LT_mobile,LT_mobile_K80,false
+LT_Mobile LT_K80,LT_mobile LT_mobile_K80,LT_Mobile,LT_mobile_K80,false
 LT_Mobile LT_mobile_C26,LT_mobile LT_mobile_C26,LT_Mobile,LT_mobile_C26,false
 LT_Mobile LT_mobile_E16,LT_mobile LT_mobile_E16,LT_Mobile,LT_mobile_E16,false
 M-KOPA M10,HMD NYX,M-KOPA,NYX,false
@@ -372,6 +373,7 @@ Motorola moto g56 5G,motorola bogota,Motorola,bogota,false
 Motorola moto g57 power,motorola mumba,Motorola,mumba,false
 Motorola moto g62 5G,motorola rhodec,Motorola,rhodec,false
 Motorola moto g62 5G,motorola rhodei,Motorola,rhodei,false
+Motorola moto g67,motorola naples,Motorola,naples,false
 Motorola moto g67 power 5G,motorola portov,Motorola,portov,false
 Motorola moto g72,motorola vicky,Motorola,vicky,false
 Motorola moto g73 5G,motorola devonf,Motorola,devonf,false
@@ -839,7 +841,6 @@ Redmi Note 8,xiaomi ginkgo,Redmi,ginkgo,false
 Redmi Note 8T,xiaomi willow,Redmi,willow,false
 Redmi Note 9,Redmi merlin,Redmi,merlin,false
 Redmi Note 9,Redmi merlinnfc,Redmi,merlinnfc,false
-Redmi Note 9 Pro,Redmi joyeuse,Redmi,joyeuse,false
 Redmi Pad Pro,Redmi dizi,Redmi,dizi,false
 Redmi Pad Pro 5G,Redmi ruan,Redmi,ruan,false
 Redmi Pad SE 8.7,Redmi flare,Redmi,flare,false
@@ -1335,6 +1336,8 @@ ZTE Z2453,ZTE P963F95_A,ZTE,P963F95_A,false
 ZTE Z2459,nubia P616F05,ZTE,P616F05,false
 ZTE Z2459,ZTE P616F05,ZTE,P616F05,false
 ZTE Z2465N,nubia P820F05,ZTE,P820F05,false
+ZTE Z2472,nubia P606F20,Nubia,P606F20,false
+ZTE Z2472,ZTE P606F20,ZTE,P606F20,false
 ZTE Z2472,ZTE P606F20_A,ZTE,P606F20_A,false
 ZTE Z2575,nubia P620F02,ZTE,P620F02,false
 ZTE Z2576,nubia P620F01,ZTE,P620F01,false
