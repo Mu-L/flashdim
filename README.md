@@ -172,7 +172,7 @@ The following list contains phones, which were manually excluded in the Google P
 If the list contains any phone which does has a dimmable flashlight, please let me know.
 
 <!--- marker1 -->
-<b>Total: 1176</b>
+<b>Total: 1178</b>
 
 [8](#8) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H](#h) [I](#i) [J](#j) [K](#k) [L](#l) [M](#m) [N](#n) [O](#o) [P](#p) [Q](#q) [R](#r) [S](#s) [T](#t) [U](#u) [V](#v) [W](#w) [X](#x) [Z](#z)  
 *Links may only work in common browsers*
@@ -745,18 +745,14 @@ If the list contains any phone which does has a dimmable flashlight, please let 
   </ul>
 </details>
 <details>
-  <summary>LT_Mobile (4)</summary>
+  <summary>LT_Mobile (6)</summary>
   <ul>
+    <li>LT_Mobile LT_8103 [LT LT_8103]</li>
     <li>LT_Mobile LT_8106 [LT LT_8106]</li>
     <li>LT_Mobile LT_8501 [LT LT_8501]</li>
+    <li>LT_Mobile LT_K80 [LT_mobile LT_mobile_K80]</li>
     <li>LT_Mobile LT_mobile_C26 [LT_mobile LT_mobile_C26]</li>
     <li>LT_Mobile LT_mobile_E16 [LT_mobile LT_mobile_E16]</li>
-  </ul>
-</details>
-<details>
-  <summary>LT_mobile (1)</summary>
-  <ul>
-    <li>LT_Mobile LT_K80 [LT_mobile LT_mobile_K80]</li>
   </ul>
 </details>
 <details name="M">
@@ -818,7 +814,7 @@ If the list contains any phone which does has a dimmable flashlight, please let 
   </ul>
 </details>
 <details>
-  <summary>Motorola (67)</summary>
+  <summary>Motorola (68)</summary>
   <ul>
     <li>Motorola moto e13 [motorola sabahl]</li>
     <li>Motorola moto e14 [motorola lionl]</li>
@@ -858,6 +854,7 @@ If the list contains any phone which does has a dimmable flashlight, please let 
     <li>Motorola moto g56 5G [motorola bogota]</li>
     <li>Motorola moto g57 power [motorola mumba]</li>
     <li>Motorola moto g62 5G [motorola rhodec, motorola rhodei]</li>
+    <li>Motorola moto g67 [motorola naples]</li>
     <li>Motorola moto g67 power 5G [motorola portov]</li>
     <li>Motorola moto g72 [motorola vicky]</li>
     <li>Motorola moto g73 5G [motorola devonf]</li>
@@ -918,6 +915,12 @@ If the list contains any phone which does has a dimmable flashlight, please let 
     <li>Nokia X30 5G [Nokia FCN_sprout]</li>
     <li>Nokia XR20 [Nokia TTG_sprout]</li>
     <li>Nokia XR21 [Nokia SNT_sprout]</li>
+  </ul>
+</details>
+<details>
+  <summary>Nubia (1)</summary>
+  <ul>
+    <li>ZTE Z2472 [nubia P606F20]</li>
   </ul>
 </details>
 <details name="O">
@@ -1287,7 +1290,7 @@ If the list contains any phone which does has a dimmable flashlight, please let 
   </ul>
 </details>
 <details>
-  <summary>Redmi (86)</summary>
+  <summary>Redmi (85)</summary>
   <ul>
     <li>Redmi 10 2022 [Redmi eos, Redmi selene]</li>
     <li>Redmi 10 5G [Redmi thunder]</li>
@@ -1366,7 +1369,6 @@ If the list contains any phone which does has a dimmable flashlight, please let 
     <li>Redmi Note 8 [Redmi biloba, xiaomi ginkgo]</li>
     <li>Redmi Note 8T [xiaomi willow]</li>
     <li>Redmi Note 9 [Redmi merlin, Redmi merlinnfc]</li>
-    <li>Redmi Note 9 Pro [Redmi joyeuse]</li>
     <li>Redmi Pad Pro [Redmi dizi]</li>
     <li>Redmi Pad Pro 5G [Redmi ruan]</li>
     <li>Redmi Pad SE 8.7 [Redmi flare]</li>
@@ -1947,7 +1949,7 @@ If the list contains any phone which does has a dimmable flashlight, please let 
     <li>ZTE Z2453 [ZTE P963F95, ZTE P963F95_A]</li>
     <li>ZTE Z2459 [nubia P616F05, ZTE P616F05]</li>
     <li>ZTE Z2465N [nubia P820F05]</li>
-    <li>ZTE Z2472 [ZTE P606F20_A]</li>
+    <li>ZTE Z2472 [ZTE P606F20, ZTE P606F20_A]</li>
     <li>ZTE Z2575 [nubia P620F02]</li>
     <li>ZTE Z2576 [nubia P620F01]</li>
   </ul>
