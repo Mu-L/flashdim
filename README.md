@@ -1,14 +1,14 @@
 <h1 align="center">FlashDim - Dim your flashlight 🔦</h1>
 
 <p align="center">
-  <a href="https://matrix.to/#/#flashdim:matrix.org"><img alt="Matrix room" src="https://proxy.cyb3rko.de/shields/matrix/flashdim%3Amatrix.org?logo=matrix&label=Matrix%20Chat&color=black"/></a>
-  <a href="https://apilevels.com"><img alt="API Level" src="https://proxy.cyb3rko.de/shields/badge/API-33%2B-coral?logo=android&logoColor=white"/></a>
-  <a href="https://play.google.com/store/apps/details?id=com.cyb3rko.flashdim"><img alt="Google Play Store" src="https://proxy.cyb3rko.de/shields/endpoint?url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dcom.cyb3rko.flashdim%26l%3Dgplay%26m%3Dv%24version&color=blue&logo=googleplay"/></a>
-  <a href="https://proxy.cyb3rko.de/shields/f-droid/v/com.cyb3rko.flashdim.svg?logo=fdroid"><img alt="F-Droid" src="https://proxy.cyb3rko.de/shields/f-droid/v/com.cyb3rko.flashdim.svg?logo=fdroid"/></a>
-  <a href="https://github.com/cyb3rko/flashdim/releases/latest"><img alt="GitHub Release" src="https://proxy.cyb3rko.de/shields/github/v/release/cyb3rko/flashdim.svg?logo=github"/></a>
-  <a href="https://github.com/cyb3rko/flashdim/commits/main"><img alt="Last commit" src="https://proxy.cyb3rko.de/shields/github/last-commit/cyb3rko/flashdim?color=FE5196&logo=git&logoColor=white"/></a>
-  <a href="https://conventionalcommits.org"><img alt="Conventional Commits" src="https://proxy.cyb3rko.de/shields/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white"/></a>
-  <a href="https://www.apache.org/licenses/LICENSE-2.0"><img alt="License" src="https://proxy.cyb3rko.de/shields/github/license/cyb3rko/flashdim?color=1BCC1B&logo=apache"/></a>
+  <a href="https://matrix.to/#/#flashdim:matrix.org"><img alt="Matrix room" src="https://img.shields.io/matrix/flashdim%3Amatrix.org?logo=matrix&label=Matrix%20Chat&color=black"/></a>
+  <a href="https://apilevels.com"><img alt="API Level" src="https://img.shields.io/badge/API-33%2B-coral?logo=android&logoColor=white"/></a>
+  <a href="https://play.google.com/store/apps/details?id=com.cyb3rko.flashdim"><img alt="Google Play Store" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dcom.cyb3rko.flashdim%26l%3Dgplay%26m%3Dv%24version&color=blue&logo=googleplay"/></a>
+  <a href="https://f-droid.org/de/packages/com.cyb3rko.flashdim"><img alt="F-Droid" src="https://img.shields.io/f-droid/v/com.cyb3rko.flashdim.svg?logo=fdroid"/></a>
+  <a href="https://github.com/cyb3rko/flashdim/releases/latest"><img alt="GitHub Release" src="https://img.shields.io/github/v/release/cyb3rko/flashdim.svg?logo=github"/></a>
+  <a href="https://github.com/cyb3rko/flashdim/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/cyb3rko/flashdim?color=FE5196&logo=git&logoColor=white"/></a>
+  <a href="https://conventionalcommits.org"><img alt="Conventional Commits" src="https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white"/></a>
+  <a href="https://www.apache.org/licenses/LICENSE-2.0"><img alt="License" src="https://img.shields.io/github/license/cyb3rko/flashdim?color=1BCC1B&logo=apache"/></a>
 </p>
 
 <p align="center">
@@ -16,14 +16,14 @@
   <a href="https://trendshift.io/repositories/13351" target="_blank"><img src="https://trendshift.io/api/badge/repositories/13351" alt="cyb3rko%2Fflashdim | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a><br/>
   <a href="https://github.com/cyb3rko/flashdim/releases"><img alt="F-Droid installs count (yearly average)" src="https://img.shields.io/badge/F--Droid%20installs%20(yearly%20average)-27k-blue?logo=f-droid"/></a><br/>
   <a href="https://github.com/cyb3rko/flashdim/releases"><img alt="F-Droid installs count (weekly)" src="https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fdivested.dev%2Fpages%2Ffdroid_stats&search=com%5C.cyb3rko%5C.flashdim%3Cbr%3EWeekly%20Average%3A%20(%3F%3Cdownloads%3E%5B0-9%5D%2B)&replace=%24%3Cdownloads%3E&logo=f-droid&label=F-Droid%20installs%20(weekly)&color=blue"/></a><br/>
-  <a href="https://github.com/cyb3rko/flashdim/releases"><img alt="GitHub downloads count (total)" src="https://proxy.cyb3rko.de/shields/github/downloads/cyb3rko/flashdim/total?logo=github&label=GitHub%20downloads%20%28total%29&color=blue"/></a><br/>
+  <a href="https://github.com/cyb3rko/flashdim/releases"><img alt="GitHub downloads count (total)" src="https://img.shields.io/github/downloads/cyb3rko/flashdim/total?logo=github&label=GitHub%20downloads%20%28total%29&color=blue"/></a><br/>
 </p>
 
 ---
 
 <p align="center">
-  <a href="https://plexus.techlore.tech/apps?q=com.cyb3rko.flashdim"><img alt="Plexus rating" src="https://proxy.cyb3rko.de/shields/badge/dynamic/json?url=https%3A%2F%2Fplexus.techlore.tech%2Fapi%2Fv1%2Fapps%2Fcom.cyb3rko.flashdim%3Fscores%3Dtrue&query=%24.data.scores.native.numerator&suffix=%20%2F%204&logo=android&label=de-Googled%20Compatibility"/></a>
-  <a href="https://plexus.techlore.tech/apps?q=com.cyb3rko.flashdim"><img alt="Plexus rating" src="https://proxy.cyb3rko.de/shields/badge/dynamic/json?url=https%3A%2F%2Fplexus.techlore.tech%2Fapi%2Fv1%2Fapps%2Fcom.cyb3rko.flashdim%3Fscores%3Dtrue&query=%24.data.scores.micro_g.numerator&suffix=%20%2F%204&logo=android&label=microG%20Compatibility"/></a>
+  <a href="https://plexus.techlore.tech/apps?q=com.cyb3rko.flashdim"><img alt="Plexus rating" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fplexus.techlore.tech%2Fapi%2Fv1%2Fapps%2Fcom.cyb3rko.flashdim%3Fscores%3Dtrue&query=%24.data.scores.native.numerator&suffix=%20%2F%204&logo=android&label=de-Googled%20Compatibility"/></a>
+  <a href="https://plexus.techlore.tech/apps?q=com.cyb3rko.flashdim"><img alt="Plexus rating" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fplexus.techlore.tech%2Fapi%2Fv1%2Fapps%2Fcom.cyb3rko.flashdim%3Fscores%3Dtrue&query=%24.data.scores.micro_g.numerator&suffix=%20%2F%204&logo=android&label=microG%20Compatibility"/></a>
 </p>
 
 ---
@@ -1987,11 +1987,13 @@ Find the links here or in the section 'Sponsor this project' of this repo:
 
 ## Star History
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://proxy.cyb3rko.de/stars/svg?repos=cyb3rko/flashdim&type=Date&theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://proxy.cyb3rko.de/stars/svg?repos=cyb3rko/flashdim&type=Date&theme=light" />
-  <img alt="Star History Chart" src="https://proxy.cyb3rko.de/stars/svg?repos=cyb3rko/flashdim&type=Date&theme=light" />
-</picture>
+<a href="https://repostars.dev/?repos=cyb3rko%2Fflashdim&theme=noir">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://repostars.dev/api/embed?repo=cyb3rko%2Fflashdim&theme=noir" />
+    <source media="(prefers-color-scheme: light)" srcset="https://repostars.dev/api/embed?repo=cyb3rko%2Fflashdim&theme=light" />
+    <img alt="Star History Chart" src="https://repostars.dev/api/embed?repo=cyb3rko%2Fflashdim&theme=light" />
+  </picture>
+</a>
 
 ## License
 
