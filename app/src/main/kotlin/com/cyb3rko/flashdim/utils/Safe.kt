@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2022-2025 Cyb3rKo
+ * Copyright (c) 2022-2026 Cyb3rKo
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -22,6 +22,7 @@ import androidx.preference.PreferenceManager
 import com.cyb3rko.flashdim.BuildConfig
 
 internal object Safe {
+    const val ACCESSIBILITY_DISCLAIMER_ACKNOWLEDGED = "accessibility_disclaimer_acknowledged"
     const val APPOPEN_FLASH = "appopen_flash"
     const val APPSTART_FLASH = "appstart_flash"
     const val BUTTON_VIBRATION = "button_vibration"

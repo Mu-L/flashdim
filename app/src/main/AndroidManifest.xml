@@ -41,6 +41,13 @@
             android:screenOrientation="portrait"
             android:exported="false" />
 
+        <!-- included in buildType "debug", "release" -->
+        <!-- excluded in buildType "libre" -->
+        <activity
+            android:name="com.cyb3rko.flashdim.activities.DisclaimerActivity"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+
         <service
             android:name=".quicksettings.SettingsTile"
             android:label="@string/app_name"

@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2022-2025 Cyb3rKo
+ * Copyright (c) 2022-2026 Cyb3rKo
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -115,6 +115,15 @@ class MainActivity : AppCompatActivity() {
         super.onPostCreate(savedInstanceState)
         if (!Camera.doesDeviceHaveFlash(packageManager)) return
         initButtonClickListeners()
+
+        @Suppress("KotlinConstantConditions")
+        if (BuildConfig.BUILD_TYPE != "libre" &&
+            !Safe.getBoolean(Safe.ACCESSIBILITY_DISCLAIMER_ACKNOWLEDGED, false)
+        ) {
+            startActivity(Intent(this, DisclaimerActivity::class.java))
+            return
+        }
+
         checkDeviceSupport()
         if (!Safe.getBoolean(Safe.FLASH_ACTIVE, false) && !intentFlash) {
             executeAppStartFlash()

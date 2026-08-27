@@ -17,8 +17,8 @@ android {
         applicationId = "com.cyb3rko.flashdim"
         minSdk = 33
         targetSdk = 37
-        versionCode = 32
-        versionName = "2.5.0"
+        versionCode = 33
+        versionName = "2.5.1"
         resValue("string", "app_name", "FlashDim Dev")
         buildConfigField("String", "GIT_VERSION", "\"${getGitVersion()}\"")
         signingConfig = signingConfigs.getByName("debug")
