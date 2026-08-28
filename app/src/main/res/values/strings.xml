@@ -27,8 +27,12 @@
     <string name="dialog_accessibility_message">For this feature to work FlashDim leverages the accessibility API to read key events and react to the click of the volume buttons.\n\nI do not collect any kind of data other than the volume button key events. To verify that, you can access this app\'s source code on GitHub.</string>
     <string name="dialog_accessibility_button1">Proceed</string>
     <string name="dialog_accessibility_button2">Cancel</string>
+    <string name="dialog_accessibility_consent_title">Accessibility API Consent Required</string>
+    <string name="dialog_accessibility_consent_message">You declined the use of accessibility APIs, so the volume buttons service stays disabled.\n\nTo use this feature, you need to accept the use of accessibility APIs first.</string>
+    <string name="dialog_accessibility_consent_button1">Enable</string>
     <string name="disclaimer_message">FlashDim lets you toggle the flashlight by pressing both volume buttons. This feature is opt-in and can be activated from the settings.\n\n%1$s</string>
     <string name="disclaimer_button">Agree</string>
+    <string name="disclaimer_decline_button">Decline</string>
     <string name="hint_dim_not_supported">This device only supports 1 light level.\nDim feature deactivated.</string>
     <string name="light_level_sos">SOS mode</string>
     <string name="light_level_morse">Morse mode</string>

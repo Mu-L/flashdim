@@ -33,6 +33,7 @@ import androidx.preference.PreferenceManager
 import com.cyb3rko.flashdim.BuildConfig
 import com.cyb3rko.flashdim.R
 import com.cyb3rko.flashdim.databinding.ActivitySettingsBinding
+import com.cyb3rko.flashdim.modals.AccessibilityConsentDialog
 import com.cyb3rko.flashdim.modals.AccessibilityInfoDialog
 import com.cyb3rko.flashdim.modals.LinksDialog
 import com.cyb3rko.flashdim.utils.Safe
@@ -163,14 +164,20 @@ internal class SettingsActivity :
             }
             @Suppress("KotlinConstantConditions")
             if (BuildConfig.BUILD_TYPE != "libre") {
+                Safe.initialize(myContext)
                 findPreference<Preference>("volume_buttons")?.apply {
                     isEnabled = true
                     setOnPreferenceClickListener {
-                        AccessibilityInfoDialog.show(myContext)
+                        if (Safe.getBoolean(Safe.ACCESSIBILITY_DISCLAIMER_ACCEPTED, false)) {
+                            AccessibilityInfoDialog.show(myContext)
+                        } else {
+                            AccessibilityConsentDialog.show(myContext)
+                        }
                         true
                     }
                 }
-                findPreference<Preference>(Safe.VOLUME_BUTTONS_LINK)?.isEnabled = true
+                findPreference<Preference>(Safe.VOLUME_BUTTONS_LINK)?.isEnabled =
+                    Safe.getBoolean(Safe.ACCESSIBILITY_DISCLAIMER_ACCEPTED, false)
             }
         }
 

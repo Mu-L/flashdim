@@ -52,6 +52,7 @@ class VolumeButtonService : AccessibilityService() {
             (event.keyCode == KeyEvent.KEYCODE_VOLUME_DOWN)
         ) {
             Safe.initialize(applicationContext)
+            if (!Safe.getBoolean(Safe.ACCESSIBILITY_DISCLAIMER_ACCEPTED, false)) return false
             val pressed = event.action == KeyEvent.ACTION_DOWN
             when (event.keyCode) {
                 KeyEvent.KEYCODE_VOLUME_UP -> volumeUpPressed = pressed

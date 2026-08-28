@@ -38,11 +38,17 @@ internal class DisclaimerActivity : AppCompatActivity() {
 
         onBackPressedDispatcher.addCallback(this, object : OnBackPressedCallback(true) {
             override fun handleOnBackPressed() {
-                // block back navigation until disclaimer is acknowledged
+                // block back navigation, consent requires pressing one of the buttons
             }
         })
 
-        binding.acknowledgeButton.setOnClickListener {
+        binding.agreeButton.setOnClickListener {
+            Safe.initialize(applicationContext)
+            Safe.writeBoolean(Safe.ACCESSIBILITY_DISCLAIMER_ACKNOWLEDGED, true)
+            Safe.writeBoolean(Safe.ACCESSIBILITY_DISCLAIMER_ACCEPTED, true)
+            finish()
+        }
+        binding.declineButton.setOnClickListener {
             Safe.initialize(applicationContext)
             Safe.writeBoolean(Safe.ACCESSIBILITY_DISCLAIMER_ACKNOWLEDGED, true)
             finish()

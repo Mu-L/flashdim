@@ -22,6 +22,7 @@ import androidx.preference.PreferenceManager
 import com.cyb3rko.flashdim.BuildConfig
 
 internal object Safe {
+    const val ACCESSIBILITY_DISCLAIMER_ACCEPTED = "accessibility_disclaimer_accepted"
     const val ACCESSIBILITY_DISCLAIMER_ACKNOWLEDGED = "accessibility_disclaimer_acknowledged"
     const val APPOPEN_FLASH = "appopen_flash"
     const val APPSTART_FLASH = "appstart_flash"
